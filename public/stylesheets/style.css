@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container1 {
+  background-position: center;
+  background-image: url(../images/IMG_7570.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.arrange {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  color: white;
+  font-size: 3em;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+
+
+nav > ul {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+}
+
+li {
+  list-style: none;
+  color: white;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+ul:first-child > li {
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+#angelina, #angelina + li {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+#angelina {
+  font-size: 1.3em;
+}
+
+#angelina + li {
+  font-size: 1em;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+
+#section1 > p {
+  font-size: 2.5em;
+  font-family: 'Forum', cursive;
+  padding: 1em;
+  line-height: 2em;
+}
+
+#section2 {
+  background-color: rgb(94, 84, 86);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 35px;
+}
+
+#section2 > p  {
+  padding: 40px;
+  line-height: 2em;
+}
+
+#section3 > p {
+  padding: 40px;
+  margin-top: 50px;
+  margin-right: 50px;
+  line-height: 1.5em;
+  width: 400px;
+  text-align: right;
+}
+
+#section3 {
+  background-position: center;
+  background-image: url(../images/IMG_7575.JPG);
+  /* 7579? */
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: end;
+  align-items: end;
+}
+
+#section3  p{
+  background-color: burlywood;
+}
+
+#section4 {
+  background-color: rgb(94, 84, 86);
+  color: white;
+  padding: 30px;
+}
+
+#section4 > p {
+  padding: 5px;
+  margin: 5px;
+  line-height: 2em;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+.images > img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+
+
+
+#section5 {
+  background-position: center;
+  background-image: url(../images/IMG_7580.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+input, select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#section5 > p {
+  padding: 10px;
+  line-height: 2em;
+}
+
+footer {
+  background-color: rgb(16, 16, 18);
+  color: white;
+  padding: 10px;
+}
+
+footer > p {
+  vertical-align: middle;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+}
